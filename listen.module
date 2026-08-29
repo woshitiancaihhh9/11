@@ -1,5 +1,9 @@
+#!name=帮你听懂英语播客
+#!desc=解锁VIP权限
+#!system=ios
+
 [Script]
-帮你听懂英语播客 = type=http-response,pattern=^https?://.+listenleap\.com/front-api/user/getUserInfoByUserToken,script-path=https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/listen.js,requires-body=true,timeout=10
+listen_leap = type=http-response,pattern=^https?://.+listenleap\.com/front-api/user/getUserInfoByUserToken,script-path=https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/listen.js,requires-body=true,timeout=10,tag=帮你听懂英语播客
 
 [MITM]
-hostname = www.listenleap.com,api.listenleap.com,*.listenleap.com
+hostname = %APPEND% *.listenleap.com
