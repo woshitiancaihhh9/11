@@ -1,0 +1,5 @@
+[Script]
+^https://api\.mojidict\.com/app/endict/parse/functions/getNPrivileges url script-response-body https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/bohe.js
+
+[MITM]
+hostname = api.mojidict.com
