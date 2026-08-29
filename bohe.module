@@ -1,5 +1,8 @@
+#!name=薄荷
+
 [Script]
-^https://api\.mojidict\.com/app/endict/parse/functions/getNPrivileges url script-response-body https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/bohe.js
+^https://du\.baicizhan\.com url script-response-body https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/bohe.js
 
 [MITM]
-hostname = api.mojidict.com
+hostname = du.baicizhan.com, *.baicizhan.com
+
