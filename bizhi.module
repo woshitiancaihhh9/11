@@ -1,0 +1,10 @@
+#!name=壁纸 - 精选高清墙纸图片和背景主题 VIP
+#!desc=解锁Vip&Svip
+#!author=WeiGiegie
+#!category=脚本破解
+
+[Script]
+壁纸VIP = type=http-response, pattern=^https?:\/\/leancloud\.emotionwp\.com\/.*\/classes\/wpf_account, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/woshitiancaihhh9/11/refs/heads/main/bizhi.js
+
+[MITM]
+hostname = %APPEND% leancloud.emotionwp.com
